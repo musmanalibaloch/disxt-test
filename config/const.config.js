@@ -1,7 +1,5 @@
 module.exports = 
 {
-
-
     successMessages:{
         USER_LOGIN: 'USER LOGGED IN SUCCESSFULLY',
         USER_SIGNED_UP:'USER SIGNED UP SUCCESSFULLY',
