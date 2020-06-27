@@ -10,7 +10,7 @@ module.exports = (app) => {
         .get('/product/:id', auth, productCtl.getOneProduct)
         .get('/products', auth, productCtl.getProducts)
         .put('/product/:id', auth, roleValidator, productCtl.updateProduct)
-        .delete('product/:id',auth,roleValidator, productCtl.deleteProduct)
+        .delete('/product/:id',auth,roleValidator, productCtl.deleteProduct)
 
 
 }

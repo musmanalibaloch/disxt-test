@@ -141,7 +141,7 @@ const deleteProduct = async (req, res) => {
         */
 
 
-        const { _id } = req.query
+        const { id } = req.params
 
 
         /*
@@ -150,7 +150,7 @@ const deleteProduct = async (req, res) => {
         *
         *
         */
-        await productService.deleteProduct(res, _id)
+        await productService.deleteProduct(res, id)
 
     } catch (error) {
 

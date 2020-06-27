@@ -150,7 +150,7 @@ const deleteProduct = async (res, _id) => {
          *
          * 
          */
-        const deleted = await productModel.update({ _id: _id })
+        const deleted = await productModel.deleteOne({ _id: _id })
 
 
         /*
