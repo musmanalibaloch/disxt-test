@@ -1,13 +1,11 @@
 # NODEJS BACKEND TEST FOR DISXT
 
-### DOCKER BASED START UP
-
-### RUN CODE
+## RUN CODE
 
 ### docker-compose build
-# docker-compose up
+### docker-compose up
 
-### Containers
+## Containers
 
 ### api (nodejs)
 ### mongo (mongodb)
